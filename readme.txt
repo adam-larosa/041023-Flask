@@ -10,7 +10,7 @@ Starting a new Python environment:
 Initialize the database with SQLAlchemy:
     flask db init
 
-Generate a new migration after adding a new class:
+Generate a new migration after adding a new / changing a class:
     flask db revision --autogenerate -m 'name of model or change'
 
 Run a migration:
