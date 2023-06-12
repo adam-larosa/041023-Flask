@@ -24,3 +24,10 @@ Once in the shell we can create new instances & save them, e.g.:
     c1 = Cat( name = 'Luke' )
     db.session.add( c1 )
     db.session.commit()  <- this is what commits the save to the database
+
+
+To change the database & add a new column?  Just change the model & generate
+a new migration, then run the new migration
+
+Undo a migration?
+    flask db downgrade
